@@ -4,7 +4,7 @@ console.log(`Hi, my name is ${studentInfo.name} and I study at ${studentInfo.cam
 var cowsay = require("cowsay");
 
 console.log(cowsay.say({
-    text : "I'm a moooodule",
+    text : "Hi I'm Elisa and I study at Wild Code School",
     e : "oO",
     T : "U "
 }));
