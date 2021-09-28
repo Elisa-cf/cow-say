@@ -1,10 +1,9 @@
 const studentInfo = require('./userInformation');
-console.log(`Hi, my name is ${studentInfo.name} and I study at ${studentInfo.campus}`);
+const cowsay = require("cowsay");
 
-var cowsay = require("cowsay");
 
 console.log(cowsay.say({
-    text : "Hi I'm Elisa and I study at Wild Code School",
+    text : `Hi, my name is ${studentInfo.name} and I study at ${studentInfo.campus}`,
     e : "oO",
     T : "U "
 }));
